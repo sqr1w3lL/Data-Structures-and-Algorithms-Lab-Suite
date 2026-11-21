@@ -1,0 +1,20 @@
+C:\Users\maksi\OneDrive\Рабочий стол\Atasd\Самостоятельная работа, Бойченко\Project1\Project1\x64\Debug\Project1.vcxproj.AssemblyReference.cache
+C:\Users\maksi\OneDrive\Рабочий стол\Atasd\Самостоятельная работа, Бойченко\Project1\Project1\x64\Debug\Project1.Heap.resources
+C:\Users\maksi\OneDrive\Рабочий стол\Atasd\Самостоятельная работа, Бойченко\Project1\Project1\x64\Debug\Project1.Lb1.resources
+C:\Users\maksi\OneDrive\Рабочий стол\Atasd\Самостоятельная работа, Бойченко\Project1\Project1\x64\Debug\Project1.Lb2.resources
+C:\Users\maksi\OneDrive\Рабочий стол\Atasd\Самостоятельная работа, Бойченко\Project1\Project1\x64\Debug\Project1.Lb3.resources
+C:\Users\maksi\OneDrive\Рабочий стол\Atasd\Самостоятельная работа, Бойченко\Project1\Project1\x64\Debug\Project1.Lb4.resources
+C:\Users\maksi\OneDrive\Рабочий стол\Atasd\Самостоятельная работа, Бойченко\Project1\Project1\x64\Debug\Project1.Lb5.resources
+C:\Users\maksi\OneDrive\Рабочий стол\Atasd\Самостоятельная работа, Бойченко\Project1\Project1\x64\Debug\Project1.Lb6.resources
+C:\Users\maksi\OneDrive\Рабочий стол\Atasd\Самостоятельная работа, Бойченко\Project1\Project1\x64\Debug\Project1.Lb7.resources
+C:\Users\maksi\OneDrive\Рабочий стол\Atasd\Самостоятельная работа, Бойченко\Project1\Project1\x64\Debug\Project1.vcxproj.GenerateResource.cache
+D:\Atasd\Самостоятельная работа, Бойченко\Project1\Project1\x64\Debug\Project1.vcxproj.AssemblyReference.cache
+D:\Atasd\Самостоятельная работа, Бойченко\Project1\Project1\x64\Debug\Project1.Heap.resources
+D:\Atasd\Самостоятельная работа, Бойченко\Project1\Project1\x64\Debug\Project1.Lb1.resources
+D:\Atasd\Самостоятельная работа, Бойченко\Project1\Project1\x64\Debug\Project1.Lb2.resources
+D:\Atasd\Самостоятельная работа, Бойченко\Project1\Project1\x64\Debug\Project1.Lb3.resources
+D:\Atasd\Самостоятельная работа, Бойченко\Project1\Project1\x64\Debug\Project1.Lb4.resources
+D:\Atasd\Самостоятельная работа, Бойченко\Project1\Project1\x64\Debug\Project1.Lb5.resources
+D:\Atasd\Самостоятельная работа, Бойченко\Project1\Project1\x64\Debug\Project1.Lb6.resources
+D:\Atasd\Самостоятельная работа, Бойченко\Project1\Project1\x64\Debug\Project1.Lb7.resources
+D:\Atasd\Самостоятельная работа, Бойченко\Project1\Project1\x64\Debug\Project1.vcxproj.GenerateResource.cache

@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <ProjectGuid>{4BE5BDBA-EE7A-7E76-2031-5D7A32151460}</ProjectGuid>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <Keyword>ManagedCProj</Keyword>
+    <RootNamespace>Project1</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BST.cpp" />
+    <ClCompile Include="DeliveryPlanner.cpp" />
+    <ClCompile Include="ShortestPaths.cpp" />
+    <ClCompile Include="Graph.cpp" />
+    <ClCompile Include="GridTask.cpp" />
+    <ClCompile Include="HashTable.cpp" />
+    <ClCompile Include="Heap.cpp" />
+    <ClCompile Include="Lb1.cpp" />
+    <ClCompile Include="Lb2.cpp" />
+    <ClCompile Include="Lb3.cpp" />
+    <ClCompile Include="Lb4.cpp" />
+    <ClCompile Include="Lb5.cpp" />
+    <ClCompile Include="Lb6.cpp" />
+    <ClCompile Include="Lb7.cpp" />
+    <ClCompile Include="ProductGroup.cpp" />
+    <ClCompile Include="Task.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BST.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="DeliveryPlanner.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="ShortestPaths.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Graph.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="GridTask.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="HashTable.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Heap.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Lb1.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Lb2.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Lb3.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Lb4.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Lb5.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Lb6.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Lb7.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="ProductGroup.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Task.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Heap.resx">
+      <DependentUpon>Heap.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lb1.resx">
+      <DependentUpon>Lb1.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lb2.resx">
+      <DependentUpon>Lb2.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lb3.resx">
+      <DependentUpon>Lb3.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lb4.resx">
+      <DependentUpon>Lb4.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lb5.resx">
+      <DependentUpon>Lb5.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lb6.resx">
+      <DependentUpon>Lb6.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lb7.resx">
+      <DependentUpon>Lb7.h</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,4 @@
+Name,Price,DaysLeft,AllowedDays
+Penals,5000.00,20,5
+Pens,1000.00,30,10
+Liners,600.00,60,30
